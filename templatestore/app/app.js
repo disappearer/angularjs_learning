@@ -6,9 +6,8 @@ angular.module('templateStore', [
   'templateStore.view1',
   'templateStore.view2',
   'templateStore.templates'
-]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
+])
 
+.config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/templates'});
 }]);
