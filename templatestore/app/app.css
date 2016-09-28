@@ -47,3 +47,7 @@
 .image-full {
   width: 100%;
 }
+
+.image-row {
+  margin-top: 20px;
+}
