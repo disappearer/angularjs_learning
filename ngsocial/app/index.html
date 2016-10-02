@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html lang="en" ng-app="ngSocial" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="ngSocial" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="ngSocial" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="ngSocial" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,41 +34,6 @@
 
   <div class="container">
     <div ng-view></div>
-    <div class="row">
-      <div class="col-md-4">
-        <h4>Please log in</h4>
-        <button type="button" class="btn btn-default">Login</button>
-        <br><br>
-        <div class="well">
-          <h4>User Info</h4>
-          <ul>
-            <li>ID: SomeId</li>
-            <li>First name: John</li>
-            <li>Last name: Smith</li>
-            <li>Email: john@gmail.com</li>
-            <li>Gender: male</li>
-            <li>Locale: enGb</li>
-          </ul>
-        </div>
-        <br>
-        <div class="well">
-          <h4>Permissions</h4>
-          <ul>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-8">
-        <h3>Welcome to Facebook!</h3>
-        <form>
-          <div class="form-group">
-            <label>Status update</label>
-            <textarea class="form-control"></textarea>
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-      </div>
-    </div>
   </div>
 
   <!-- In production use:
@@ -79,6 +44,7 @@
   <script src="app.js"></script>
   <script src="view1/view1.js"></script>
   <script src="view2/view2.js"></script>
+  <script src="bower_components/ng-facebook/ngFacebook.js"></script>
   <script src="facebook/facebook.js"></script>
 </body>
 </html>

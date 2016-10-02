@@ -27,3 +27,43 @@
 body {
   padding-top: 90px;
 }
+
+.stbody
+{
+min-height:70px;
+margin-bottom:10px;
+border-bottom:dashed 1px #ccc;
+}
+.stimg
+{
+float:left;
+height:50px;
+width:50px;
+border:solid 1px #dedede;
+padding:5px;
+}
+.ststory{
+  margin-left: 70px;
+  color: #aaa;
+  font-size: 12px;
+}
+.sttext
+{
+margin-left:70px;
+min-height:50px;
+word-wrap:break-word; // Text justification
+overflow:hidden;
+padding:5px;
+display:block;
+font-family:'Georgia', Times New Roman, Times, serif
+}
+.sttime {
+  font-size: 11px;
+  color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+#post-type{
+  float: right;
+}
